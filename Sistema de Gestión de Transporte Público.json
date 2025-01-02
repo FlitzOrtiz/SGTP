@@ -1,0 +1,31 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "Sistema de Gestión de Transporte Público",
+    "owner": "Aaron Ortiz, Sebastian Padilla",
+    "description": " El Sistema de Gestión de Transporte Público permitirá a los usuarios acceder y utilizar diferentes medios de transporte público (como autobuses, tranvías y bicicletas) a través de una tarjeta única. La plataforma centralizada será adaptable a dispositivos móviles y de escritorio, brindando funcionalidades como la recarga de tarjetas, monitoreo de vehículos, optimización de rutas y gestión de mantenimiento. Las tarjetas se emiten exclusivamente en puntos físicos distribuidos en la ciudad. Los operadores y proveedores externos podrán gestionar sus vehículos y consultar el rendimiento del servicio a través de un portal de autogestión, mientras que el equipo de atención al cliente podrá responder de manera organizada a los reclamos de los usuarios.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "christian.padilla@ucuenca.edu.ec"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Nuevo diagrama STRIDE",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "Vulnerabilidades del sistema"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Miguel Angel Zuñiga",
+    "threatTop": 0
+  }
+}
