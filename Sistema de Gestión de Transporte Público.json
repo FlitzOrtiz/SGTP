@@ -852,6 +852,48 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "0b581407-1da7-4ab3-9440-0176d9b15c8b",
+            "source": {
+              "cell": "6cf16b60-c980-4157-9354-4bd1b135fbf3"
+            },
+            "target": {
+              "cell": "f9d36161-0166-4729-8018-be2123668e43"
+            }
+          },
+          {
             "position": {
               "x": 581,
               "y": 50
@@ -969,8 +1011,8 @@
           },
           {
             "position": {
-              "x": 130,
-              "y": 385
+              "x": 120,
+              "y": 380
             },
             "size": {
               "width": 112.5,
@@ -985,6 +1027,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1068,7 +1111,6 @@
               ]
             },
             "id": "6cf16b60-c980-4157-9354-4bd1b135fbf3",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
