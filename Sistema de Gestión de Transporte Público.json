@@ -164,102 +164,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request"
-            ],
-            "id": "f381fdbe-ee79-4f58-a472-f2e90856f9ae",
-            "source": {
-              "cell": "a94a00ec-736b-4360-abf1-dee579abc81f"
-            },
-            "target": {
-              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
-            },
-            "vertices": [
-              {
-                "x": 420,
-                "y": 510
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request"
-            ],
-            "id": "3af001a5-6323-4652-94cc-63dcc7aa9d4f",
-            "source": {
-              "cell": "10aaf65b-d830-4597-8500-df441ec4366a"
-            },
-            "target": {
-              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
-            },
-            "vertices": [
-              {
-                "x": 430,
-                "y": 600
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Response",
               "description": "",
               "outOfScope": false,
@@ -370,54 +274,6 @@
             "labels": [
               "Request"
             ],
-            "id": "24e68aed-9a78-4d18-a760-aa50b07769a1",
-            "source": {
-              "cell": "ea18e423-cde1-4f3a-9002-ad0734019d1c"
-            },
-            "target": {
-              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
-            },
-            "vertices": [
-              {
-                "x": 410,
-                "y": 470
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request"
-            ],
             "id": "6e5aa75d-f6a0-4d5f-b290-b7b1228b2a88",
             "source": {
               "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
@@ -429,96 +285,6 @@
               {
                 "x": 680,
                 "y": 340
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Datos",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Datos"
-            ],
-            "id": "4fb24b03-7968-4207-a687-f658df39e07c",
-            "source": {
-              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
-            },
-            "target": {
-              "cell": "d6bac9bc-896a-4386-869a-099c0c82125c"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Transacción",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Transacción"
-            ],
-            "id": "e9e6c25e-43c8-47a4-aa64-49fe5b63452d",
-            "source": {
-              "cell": "b409f85f-82b3-4a62-843d-0f13bc30c15d"
-            },
-            "target": {
-              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
-            },
-            "vertices": [
-              {
-                "x": 780,
-                "y": 450
               }
             ]
           },
@@ -618,80 +384,6 @@
                 "y": 650
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Response",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Response"
-            ],
-            "id": "2e5ef972-ddeb-4b64-a03f-2ee9a5cdf7ed",
-            "source": {
-              "cell": "286532c9-8ab1-43f4-9910-25fa9779f0ec"
-            },
-            "target": {
-              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
-            },
-            "vertices": [
-              {
-                "x": 470,
-                "y": 690
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Red Móvil",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Red Móvil"
-            ],
-            "id": "62620d16-8add-4ba0-9a0f-dd5c15c4691f",
-            "source": {
-              "x": 550,
-              "y": 280
-            },
-            "target": {
-              "x": 1050,
-              "y": 560
-            }
           },
           {
             "shape": "flow",
@@ -840,54 +532,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request"
-            ],
-            "id": "7ca1fde9-891d-423e-8b32-52abaf28776d",
-            "source": {
-              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
-            },
-            "target": {
-              "cell": "286532c9-8ab1-43f4-9910-25fa9779f0ec"
-            },
-            "vertices": [
-              {
-                "x": 490,
-                "y": 750
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -920,6 +564,546 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "0c78e6e6-c5f3-4aec-8368-85a7312ffd58",
+                  "title": "Información Delicada",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure / Brecha de información",
+                  "description": "Intercepción de canales de comunicación, obtención de información bancaria o sensible.",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "331d81fe-3aab-4a86-886c-57aff5558928",
+                  "title": "Manipulación de información",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Ataque hombre en el medio donde cambian valores de monetarios o sensibles que afecten al negocio",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "24e68aed-9a78-4d18-a760-aa50b07769a1",
+            "source": {
+              "cell": "ea18e423-cde1-4f3a-9002-ad0734019d1c"
+            },
+            "target": {
+              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 450
+              },
+              {
+                "x": 410,
+                "y": 470
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "61b672c4-b00b-475b-95b7-080985e4c1fb",
+                  "title": "Información delicada",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering / Manipulación",
+                  "description": "Intercepción de canales de comunicación, obtención de información bancaria o sensible.",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "27fbfd6a-ac90-41f2-9375-044500f79516",
+                  "title": "Manipulación de información",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure / Brecha de información",
+                  "description": "Ataque hombre en el medio donde cambian valores de monetarios o sensibles que afecten al negocio",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "f381fdbe-ee79-4f58-a472-f2e90856f9ae",
+            "source": {
+              "cell": "a94a00ec-736b-4360-abf1-dee579abc81f"
+            },
+            "target": {
+              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
+            },
+            "vertices": [
+              {
+                "x": 420,
+                "y": 510
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "ba5a44b1-210e-49d8-b036-2076a8bab009",
+                  "title": "DOs",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service / Denegación de servicio",
+                  "description": "Atacante usa medios de acceso del cliente para hacer muchas peticiones",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "3af001a5-6323-4652-94cc-63dcc7aa9d4f",
+            "source": {
+              "cell": "10aaf65b-d830-4597-8500-df441ec4366a"
+            },
+            "target": {
+              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 600
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "7b229fb8-e761-40b5-9639-e717c1ab53f2",
+                  "title": "Obtención de información delicada",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure / Brecha de información",
+                  "description": "Intercepción de de los canales de comunicación obteniendo la información secreta de la empresa.",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "2e5ef972-ddeb-4b64-a03f-2ee9a5cdf7ed",
+            "source": {
+              "cell": "286532c9-8ab1-43f4-9910-25fa9779f0ec"
+            },
+            "target": {
+              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 690
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "412e4c43-f0fa-4567-8b04-446e47f9703e",
+                  "title": "Obtención de información delicada",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure / Brecha de información",
+                  "description": "Intercepción de de los canales de comunicación obteniendo la información secreta de la empresa.",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "7ca1fde9-891d-423e-8b32-52abaf28776d",
+            "source": {
+              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
+            },
+            "target": {
+              "cell": "286532c9-8ab1-43f4-9910-25fa9779f0ec"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 700
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Datos",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "9ecd472f-758a-4725-957b-8f18aadedc84",
+                  "title": "Transmición de información alterada",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "El atacante logra transmitir videos, textos o imágenes que alteren los espacios públicos",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Datos"
+            ],
+            "id": "4fb24b03-7968-4207-a687-f658df39e07c",
+            "source": {
+              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
+            },
+            "target": {
+              "cell": "d6bac9bc-896a-4386-869a-099c0c82125c",
+              "port": "1647fd79-0364-40a4-9f54-4a923784b50b"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Transacción",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "ed3d14ac-6f61-4be1-84a3-340ba792bb77",
+                  "title": "Alteración de cobros",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "El atacante intercepta la conexión y cambio el valor o tipo del cobro.",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "ecdc33f3-908a-4465-8f86-fc450d833189",
+                  "title": "DoS",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service / Denegación de servicio",
+                  "description": "El dispositivos esta dañado o fue alterado haciendo muchas peticiones a la vez",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Transacción"
+            ],
+            "id": "e9e6c25e-43c8-47a4-aa64-49fe5b63452d",
+            "source": {
+              "cell": "b409f85f-82b3-4a62-843d-0f13bc30c15d"
+            },
+            "target": {
+              "cell": "e16dc006-203e-4066-b3dd-ec5152551375"
+            },
+            "vertices": [
+              {
+                "x": 780,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Red Móvil",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Red Móvil"
+            ],
+            "id": "62620d16-8add-4ba0-9a0f-dd5c15c4691f",
+            "source": {
+              "x": 550,
+              "y": 280
+            },
+            "target": {
+              "x": 1050,
+              "y": 560
+            }
+          },
+          {
             "position": {
               "x": 129.99999999999994,
               "y": 479
@@ -933,8 +1117,8 @@
                 "text": "Empleado"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1030,9 +1214,40 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "55ac8c04-94e4-4b31-bb63-f48249119641",
+                  "title": "Suplantación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing / Spoofing",
+                  "description": "El empleado da a conocer sus credenciales a terceros",
+                  "mitigation": "Poner metodos de ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "6c07acbd-2e45-4406-9a76-a0c10deec6c6",
+                  "title": "Repudio",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation / Repudiación",
+                  "description": "Uso indebido de las funcionalidades del sistema",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 1
+              }
             }
           },
           {
@@ -1049,8 +1264,8 @@
                 "text": "Cliente"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1146,9 +1361,27 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "ebe0f75a-05d6-4c67-8fd1-6ba26647527b",
+                  "title": "Repudio",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation / Repudiación",
+                  "description": "El cliente niega su autoría de una transferencia",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 2
+              }
             }
           },
           {
@@ -1271,8 +1504,8 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "description": "El administrador de da a conocer sus credenciales a terceros",
-                  "mitigation": "Poner métodos de verificación de identidad, y si es una maquina física que se utiliza siempre poder identificar desde que maquina se accede",
+                  "description": "El administrador da a conocer sus credenciales a terceros",
+                  "mitigation": "Poner métodos de verificación de identidad, y si es una maquina física que se utiliza siempre, poder identificar desde que maquina se accede",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 4,
@@ -1296,13 +1529,6 @@
                 "spoofing": 1,
                 "repudiation": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1417,7 +1643,7 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "providesAuthentication": true,
               "threats": []
             }
           },
@@ -1435,8 +1661,8 @@
                 "text": "Dispositivo de Cobros de Tarjeta"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1532,9 +1758,27 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "providesAuthentication": true,
+              "threats": [
+                {
+                  "id": "c8a4032e-dece-4c32-80c6-ffd46b49a2d9",
+                  "title": "Hackeo al dispositivo",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing / Spoofing",
+                  "description": "Alteran un dispositivo externo para que pueda hacer peticiones y transacciones",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -1897,6 +2141,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Miguel Angel Zuñiga",
-    "threatTop": 5
+    "threatTop": 23
   }
 }
